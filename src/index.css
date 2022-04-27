@@ -1,0 +1,30 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(46, 24, 24);
+}
+
+.container{
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width:768px){ 
+  .div--grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+  
+    }
+

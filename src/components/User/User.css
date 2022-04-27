@@ -1,0 +1,39 @@
+.user {
+  background-color: rgb(165, 153, 128);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  transition: all 300ms;
+}
+
+.user:hover {
+  background-color: rgb(151, 136, 100);
+}
+
+.user--icons{
+  display: flex;
+  gap: 1rem;
+}
+
+.icon-trash {
+  width: 3rem;
+  height: 3rem;
+  color: rgb(180, 28, 28);
+}
+
+.icon-trash:hover {
+  color: rgb(224, 20, 20);
+}
+
+.icon-edit{
+  width: 3rem;
+  height: 3rem;
+  color: rgb(29, 29, 141);
+}
+
+.icon-edit:hover{
+  color: rgb(44, 44, 197);
+}
